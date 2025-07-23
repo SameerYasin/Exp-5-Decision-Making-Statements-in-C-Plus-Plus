@@ -1,0 +1,125 @@
+//SAMEER YASIN EXP-5
+//24070123142
+//ENTC B1
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int choice;
+    float a, b, SUM, SUB, MUL, DIV;
+
+    cout << "::CALCULATOR PROGRAM::" << endl;
+    cout << "Enter the first number: ";
+    cin >> a;
+
+    cout << "Enter the second number: ";
+    cin >> b;
+
+    cout << "Select the operation you want to perform:" << endl;
+    cout << "1. ADDITION" << endl;
+    cout << "2. SUBTRACTION" << endl;
+    cout << "3. MULTIPLICATION" << endl;
+    cout << "4. DIVISION" << endl;
+
+    cin >> choice;
+
+    switch(choice) {
+        case 1:
+            SUM = a + b;
+            cout << "The addition of the two numbers is: " << SUM << endl;
+            break;
+        case 2:
+            SUB = a - b;
+            cout << "The subtraction of the two numbers is: " << SUB << endl;
+            break;
+        case 3:
+            MUL = a * b;
+            cout << "The multiplication of the two numbers is: " << MUL << endl;
+            break;
+        case 4:
+            if(b != 0){
+                DIV = a / b;
+                cout << "The division of the two numbers is: " << DIV << endl;
+            } else {
+                cout << "Error: Division by zero is not allowed." << endl;
+            }
+            break;
+        default:
+            cout << "Invalid choice. Please enter 1 to 4." << endl;
+    }
+
+    return 0;
+}
+
+/* 
+::SAMPLE OUTPUTS::
+
+Enter the first number: 
+7
+Enter the second number: 
+8
+Select the operation you want to perform:
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+1
+The addition of the two numbers is: 15
+
+Enter the first number: 
+7
+Enter the second number: 
+8
+Select the operation you want to perform:
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+2
+The subtraction of the two numbers is: -1
+
+Enter the first number: 
+7
+Enter the second number: 
+8
+Select the operation you want to perform:
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+3
+The multiplication of the two numbers is: 56
+
+Enter the first number: 
+7
+Enter the second number: 
+8
+Select the operation you want to perform:
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+4
+The division of the two numbers is: 0.875
+
+Enter the first number: 
+5
+Enter the second number: 
+0
+Select the operation you want to perform:
+1. ADDITION
+2. SUBTRACTION
+3. MULTIPLICATION
+4. DIVISION
+4
+Error: Division by zero is not allowed.
+
+Enter the first number: 
+12
+Enter the second number: 
+4
+Select the operation you want to perform:
+5
+Invalid choice. Please enter 1 to 4.
+*/
