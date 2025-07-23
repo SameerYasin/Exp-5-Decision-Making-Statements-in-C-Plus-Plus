@@ -1,0 +1,113 @@
+// SAMEER YASIN
+// 24070123145
+// ENTC B1
+
+#include<iostream>
+using namespace std;
+
+int main() {
+    int choice;
+    cout << "GRADE SHEET" << endl;
+    cout << "WHICH SUBJECT MARKS DO YOU WANT TO SEE?" << endl;
+    cout << "1. NETWORK ANALYSIS" << endl;
+    cout << "2. ELECTRONIC DEVICES AND CIRCUITS (EDC)" << endl;
+    cout << "3. DIGITAL CIRCUIT DESIGN" << endl;
+    cout << "4. SIGNALS AND SYSTEMS" << endl;
+    cout << "5. MICROPROCESSOR AND INTERFACING" << endl;
+    cout << "Enter your choice (1-5): ";
+    cin >> choice;
+
+    switch(choice) {
+        case 1:
+            cout << "The marks of NETWORK ANALYSIS are: 85" << endl;
+            break;
+        case 2:
+            cout << "The marks of ELECTRONIC DEVICES AND CIRCUITS (EDC) are: 90" << endl;
+            break;
+        case 3:
+            cout << "The marks of DIGITAL CIRCUIT DESIGN are: 88" << endl;
+            break;
+        case 4:
+            cout << "The marks of SIGNALS AND SYSTEMS are: 92" << endl;
+            break;
+        case 5:
+            cout << "The marks of MICROPROCESSOR AND INTERFACING are: 89" << endl;
+            break;
+        default:
+            cout << "INVALID CHOICE" << endl;
+    }
+
+    return 0;
+}
+
+/*
+
+SAMPLE OUTPUTS:
+
+1. Input: 1
+GRADE SHEET
+WHICH SUBJECT MARKS DO YOU WANT TO SEE?
+1. NETWORK ANALYSIS
+2. ELECTRONIC DEVICES AND CIRCUITS (EDC)
+3. DIGITAL CIRCUIT DESIGN
+4. SIGNALS AND SYSTEMS
+5. MICROPROCESSOR AND INTERFACING
+Enter your choice (1-5): 1
+The marks of NETWORK ANALYSIS are: 85
+
+2. Input: 2
+GRADE SHEET
+WHICH SUBJECT MARKS DO YOU WANT TO SEE?
+1. NETWORK ANALYSIS
+2. ELECTRONIC DEVICES AND CIRCUITS (EDC)
+3. DIGITAL CIRCUIT DESIGN
+4. SIGNALS AND SYSTEMS
+5. MICROPROCESSOR AND INTERFACING
+Enter your choice (1-5): 2
+The marks of ELECTRONIC DEVICES AND CIRCUITS (EDC) are: 90
+
+3. Input: 3
+GRADE SHEET
+WHICH SUBJECT MARKS DO YOU WANT TO SEE?
+1. NETWORK ANALYSIS
+2. ELECTRONIC DEVICES AND CIRCUITS (EDC)
+3. DIGITAL CIRCUIT DESIGN
+4. SIGNALS AND SYSTEMS
+5. MICROPROCESSOR AND INTERFACING
+Enter your choice (1-5): 3
+The marks of DIGITAL CIRCUIT DESIGN are: 88
+
+4. Input: 4
+GRADE SHEET
+WHICH SUBJECT MARKS DO YOU WANT TO SEE?
+1. NETWORK ANALYSIS
+2. ELECTRONIC DEVICES AND CIRCUITS (EDC)
+3. DIGITAL CIRCUIT DESIGN
+4. SIGNALS AND SYSTEMS
+5. MICROPROCESSOR AND INTERFACING
+Enter your choice (1-5): 4
+The marks of SIGNALS AND SYSTEMS are: 92
+
+5. Input: 5
+GRADE SHEET
+WHICH SUBJECT MARKS DO YOU WANT TO SEE?
+1. NETWORK ANALYSIS
+2. ELECTRONIC DEVICES AND CIRCUITS (EDC)
+3. DIGITAL CIRCUIT DESIGN
+4. SIGNALS AND SYSTEMS
+5. MICROPROCESSOR AND INTERFACING
+Enter your choice (1-5): 5
+The marks of MICROPROCESSOR AND INTERFACING are: 89
+
+6. Input: 6
+GRADE SHEET
+WHICH SUBJECT MARKS DO YOU WANT TO SEE?
+1. NETWORK ANALYSIS
+2. ELECTRONIC DEVICES AND CIRCUITS (EDC)
+3. DIGITAL CIRCUIT DESIGN
+4. SIGNALS AND SYSTEMS
+5. MICROPROCESSOR AND INTERFACING
+Enter your choice (1-5): 6
+INVALID CHOICE
+
+*/
