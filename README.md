@@ -8,6 +8,8 @@ I used Visual Studio to implement and test the program.
 
 ## Theory
 Decision-making is the process of determining which part of the code should be executed or skipped based on certain conditions. In C++, decision-making is handled using conditional statements, also known as decision control statements. These statements allow specific blocks of code to execute based on given conditions.
+
+
 <img width="635" height="439" alt="469900056-41013219-6f7a-4eeb-bc5c-f14fe23b3a41" src="https://github.com/user-attachments/assets/2e6553c4-e37a-4bfe-837b-9b658b871ba7" />
 
 
